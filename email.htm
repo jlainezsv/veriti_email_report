@@ -71,6 +71,9 @@
         .fail{
             color: #B42B5A !important;
         }
+        .failed-row {
+            background-color: #FFECEC;
+        }
     </style>
 </head>
 <body>
@@ -198,17 +201,17 @@
             </thead>
             <tbody>
                 <tr><td>&nbsp;</td></tr>
-                <tr>
+                <tr class="failed-row">
                     <td>GainLoss</td>
                     <td>8/21/22 9:05 AM</td>
                     <td>14s 804ms</td>
-                    <td class="success">Success</td>
+                    <td class="fail">Failed</td>
                 </tr>
                 <tr>
                     <td>GainLoss</td>
                     <td>8/21/22 9:05 AM</td>
                     <td>14s 804ms</td>
-                    <td class="fail">Success</td>
+                    <td class="success">Success</td>
                 </tr>
                 <tr>
                     <td>GainLoss</td>
